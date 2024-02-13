@@ -9,7 +9,7 @@ const PhotoGallery = () => {
       <h1 className="text-center font-bold text-4xl mb-3">
         Night City Photo Gallery
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-3">
         {nightCityImages.map(({ id, src, photograph, location }) => {
           return (
             <Link key={id} href={`/${id}`}>

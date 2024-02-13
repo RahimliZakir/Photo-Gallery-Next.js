@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <main>
+        <main className="py-3">
           {children}
           {modal}
         </main>

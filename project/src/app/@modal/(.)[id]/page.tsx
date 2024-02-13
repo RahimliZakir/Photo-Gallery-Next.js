@@ -17,7 +17,8 @@ const InterceptedPhotoPage = ({
         <Image
           alt="Night City"
           src={photo.src}
-          className="w-full object-cover aspect-square"
+          priority={true}
+          className="w-full h-[350px] object-cover aspect-square"
         />
 
         <div className="bg-white p-4">
