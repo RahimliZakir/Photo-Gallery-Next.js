@@ -20,7 +20,7 @@ const PhotoPage = ({ params: { id } }: { params: { id: string } }) => {
           <h5 className="font-bold mb-1">{selectedImage.photograph}</h5>
           <p className="mb-1">{selectedImage.location}</p>
           <Link
-            href="/photo-gallery"
+            href="/"
             className="inline-block border rounded-[5px] bg-green-500 text-white p-2"
           >
             Go Back
